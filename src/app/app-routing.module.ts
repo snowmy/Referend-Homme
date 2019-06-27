@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AcceuilComponent } from './acceuil/acceuil.component';
 
 const routes: Routes = [
+  
 
 ];
 
