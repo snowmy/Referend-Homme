@@ -10,7 +10,7 @@ export class ApiProjectService {
   constructor(public httpClient: HttpClient) { }
 
   pouet(project): Observable<any> {
-    return this.httpClient.post('http://192.168.146.218:8000/api/projects', project);
+    return this.httpClient.get('http://192.168.146.218:8000/api/projects');
   }
 
 

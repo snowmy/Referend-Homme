@@ -1,22 +1,50 @@
 .titre_presentation {
   text-align: center;
-  margin-top: 5%;
 }
 
 .texte_presentation {
   margin-top: 2%;
 }
 
-.jarallax {
-  background: url(https://cdn.pixabay.com/photo/2016/11/07/00/49/vote-1804596_960_720.jpg);
-  height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .ac_container {
   padding-top: 2%;
   padding-bottom: 2%;
+}
+.btnBurger
+{
+  border-radius: 50%;
+  width: 85px;
+	height: 85px;
+	background:blue;
+	border-radius: 50%;
+	border:none;
+  color:white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.carousel
+{
+  margin-bottom: 2%;
+}
+.burger
+{
+  padding-bottom: 2%;
+  padding-top: 2%;
+  background-color: #f8f9fa;
+}
+.maire 
+{
+  padding-right: 0%;
+}
+.texteMaire
+{
+  background-color: blue;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.photoMaire
+{
+  width: 100%;
+  height: 100%;
 }
