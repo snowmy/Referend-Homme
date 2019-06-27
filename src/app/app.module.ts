@@ -15,10 +15,13 @@ const appRoutes: Routes = [
     path: '',
     component: AcceuilComponent
   },
-
   {
     path: 'projet',
     component: ProjetComponent
+  },
+  {
+    path: 'acceuil',
+    component: AcceuilComponent
   },
 ]
 

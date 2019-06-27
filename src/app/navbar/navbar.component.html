@@ -1,8 +1,11 @@
 <div class="content-fluid navbar-light bg-light">
   <ul class="nav justify-content-center">
     <li class="nav-item">
-      <a class="nav-link" routerLink="/accueil">Accueil</a>
+      <a class="nav-link" routerLink="/acceuil">Accueil</a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" routerLink="/projet">Nos projets</a>
+      </li>
     <li class="nav-item">
       <a class="nav-link" routerLink="/equipe">Notre équipe</a>
     </li>
@@ -10,7 +13,35 @@
       <a class="nav-link" routerLink="/partenaires">Nos partenaires</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" routerLink="/connection">Me connecter</a>
+      <a class="nav-link" routerLink="/connection" data-toggle="modal" data-target="#connectionModal" data-whatever="@mdo">Me connecter</a>
+      <div class="modal fade" id="connectionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="connectionModalLabel">Se connecter</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="recipient-mail" class="col-form-label">Email:</label>
+                    <input type="email" class="form-control" id="recipient-mail">
+                  </div>
+                  <div class="form-group">
+                      <label for="recipient-password" class="col-form-label">Mot de passe:</label>
+                      <input type="password" class="form-control" id="recipient-password">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="fermer btn btn-secondary" data-dismiss="modal">Fermer</button>
+                <button type="button" class="connect btn btn-primary">Me connecter</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </li>
   </ul>
 </div>
