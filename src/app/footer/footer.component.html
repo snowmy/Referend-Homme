@@ -1,3 +1,80 @@
-<div class="container-fluid">
-  
-</div>
+<!-- add champ pour s'inscrire a newsletter + lien sociaux + google maps? + formulaire contact -->
+<div class="container-fluid contain">
+    <div class="row">
+        <div class="col-xl-4 col-12 footer-left">
+            <div class="footer-links">
+                <div class="row">
+                    <div class="col-8">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>                        
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Nous contactez</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <fieldset>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <label for="inputNom">Nom</label>
+                                                    <input name ="nom" type="text" class="form-control" id="inputNom" placeholder="Nom" required>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <label for="inputPrenom">Prénom</label>
+                                                    <input name ="prenom" type="text" class="form-control" id="inputPrenom" placeholder="Prénom" required>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <div class="form-group">
+                                                    <label for="inputMail">Mail</label>
+                                                    <input name="email" type="email" class="form-control" id="inputMail" placeholder="mail@exemple.fr" required>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <div class="form-group">
+                                                    <label name="titre" for="inputTextArea">Votre message</label>
+                                                    <textarea name="message" class="form-control textArea" id="inputTextArea" rows="10" placeholder="Entrez votre texte ici"></textarea>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                        <button type="button" class="btn btn-primary">Envoyer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div class="col-xl-4 col-12 footer-right">
+            <ul>
+                <li>
+                    <div>
+                        <p><img src="assets/pictures/mail_logoblue.png" class="mail">
+                            mairie@effesceau.com</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p><img src="assets/pictures/telephone_logoblue.png" class="telephone">
+                                06 06 06 06 06</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <p><img src="assets/pictures/facebook_logoblue.png" class="facebook">
+                                    <a href="https://www.facebook.com/centpouruntoitmacon/" target="_blank">@centpouruntoitmacon</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
