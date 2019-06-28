@@ -1,6 +1,8 @@
 .titre_presentation {
   text-align: center;
-  font-size: 1.9em;
+  font-size: 3em;
+  font-family:URW Chancery L, cursive !important;
+
 }
 
 .texte_presentation {
@@ -56,4 +58,27 @@
 {
   height: 600px;
   width: auto;
+}
+
+.titre_carousel_feux {
+  font-weight: bold;
+    color: greenyellow;
+    font-size: 40px;
+}
+
+.titre_carousel_groupe {
+  font-weight: bold;
+    color: red;
+    font-size: 40px;
+}
+
+.titre_carousel_maire {
+  font-weight: bold;
+    color: yellow;
+    font-size: 40px;
+}
+
+.titre_carousel {
+  font-weight: bold;
+  font-size: 20px;
 }
