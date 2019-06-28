@@ -25,6 +25,10 @@ const appRoutes: Routes = [
     path: 'acceuil',
     component: AcceuilComponent
   },
+  {
+    path: 'votes',
+    component: VoteComponent
+  }
 ]
 
 
