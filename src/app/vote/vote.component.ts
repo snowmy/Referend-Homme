@@ -9,7 +9,7 @@ import {ApiVoteService} from "../app-vote.service";
 
 export class VoteComponent implements OnInit {
 
-  votes;
+  votes = []
   cptVote;
   @Output() newVote = new EventEmitter<string>();
 
@@ -22,6 +22,7 @@ export class VoteComponent implements OnInit {
       this.votes = result['hydra:member'];
       console.log(result);
     })
+    console.log(this.votes)
   }
 
  /* compteurVote()
@@ -31,6 +32,6 @@ export class VoteComponent implements OnInit {
 
   addNewVote()
   {
-    this.newVote.emit(name);
+    this.newVote.emit();
   }
 }
