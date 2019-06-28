@@ -41,8 +41,6 @@ const appRoutes: Routes = [
     HttpClientModule,
     RouterModule.forRoot(appRoutes),
     MDBBootstrapModule.forRoot(),
-    MDBBootstrapModule.forRoot(),
-    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
