@@ -10,6 +10,7 @@ import { ProjetComponent } from './projet/projet.component';
 import { HttpClientModule } from '@angular/common/http';
 import { Routes, RouterModule } from '@angular/router';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { VoteComponent } from './vote/vote.component';
 
 const appRoutes: Routes = [
   {
@@ -33,13 +34,15 @@ const appRoutes: Routes = [
     AcceuilComponent,
     NavbarComponent,
     FooterComponent,
-    ProjetComponent
+    ProjetComponent,
+    VoteComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     RouterModule.forRoot(appRoutes),
+    MDBBootstrapModule.forRoot(),
     MDBBootstrapModule.forRoot(),
     MDBBootstrapModule.forRoot()
   ],
