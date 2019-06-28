@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Output, EventEmitter, OnInit} from '@angular/core';
 import {ApiVoteService} from "../app-vote.service";
 
 @Component({
@@ -11,6 +11,8 @@ export class VoteComponent implements OnInit {
 
   votes;
   cptVote;
+  @Output() newVote = new EventEmitter<string>();
+
 
   constructor(public apiVote: ApiVoteService) {
   }
@@ -22,8 +24,13 @@ export class VoteComponent implements OnInit {
     })
   }
 
-  compteurVote()
+ /* compteurVote()
   {
       this.cptVote += 1;
+  } */
+
+  addNewVote()
+  {
+    this.newVote.emit(name);
   }
 }
