@@ -1,0 +1,84 @@
+.titre_presentation {
+  text-align: center;
+  font-size: 3em;
+  font-family: URW Chancery L, cursive !important;
+
+}
+
+.texte_presentation {
+  margin-top: 2%;
+}
+
+.ac_container {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.btnBurger
+{
+  border-radius: 50%;
+  width: 90px;
+	height: 90px;
+	background:blue;
+	border-radius: 50%;
+	border:none;
+  color:white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.lienBurger
+{
+  color: white;
+}
+.carousel
+{
+  margin-bottom: 2%;
+}
+.burger
+{
+  padding-bottom: 2%;
+  padding-top: 2%;
+  background-color: #f8f9fa;
+}
+.maire 
+{
+  padding-right: 0%;
+}
+.texteMaire
+{
+  background-color: blue;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.photoMaire
+{
+  width: 100%;
+}
+.imgCarousel
+{
+  height: 600px;
+  width: auto;
+}
+
+.titre_carousel_feux {
+  font-weight: bold;
+    color: greenyellow;
+    font-size: 40px;
+}
+
+.titre_carousel_groupe {
+  font-weight: bold;
+    color: red;
+    font-size: 40px;
+}
+
+.titre_carousel_maire {
+  font-weight: bold;
+    color: yellow;
+    font-size: 40px;
+}
+
+.titre_carousel {
+  font-weight: bold;
+  font-size: 20px;
+}
