@@ -53,25 +53,11 @@ li
     margin-left: 20px;
 }
 
-.facebook
+.facebook, .twitter, .instagram, .mail
 {
     width: 40px;
 }
 
-.twitter
-{
-    width: 40px;
-}
-
-.instagram
-{
-    width: 40px;
-}
-.mail
-{
-    width: 40px;
-
-}
 .telephone
 {
     width: 40px;
@@ -88,15 +74,15 @@ li
     margin-left : 20px;
 }
 
-#mc_embed_signup
-{
-    background-color : grey;
-}
 .btnContact
 {
-    background-color : grey;
+    background-color : rgb(143, 140, 140);
 }
+#mc_embed_signup
+{
+    
+}
+
 #herefmail {
     color: black;
-
 }
