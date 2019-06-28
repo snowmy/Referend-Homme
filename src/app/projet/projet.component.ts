@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import { ApiProjectService } from '../api-project.service'
 
 @Component({
@@ -8,17 +8,23 @@ import { ApiProjectService } from '../api-project.service'
 })
 export class ProjetComponent implements OnInit {
 
-  myapicall;
-  project;
+  projects;
+  cptVote;
+ // @Input() vote: object;
 
 
   constructor(public apiProject: ApiProjectService) { }
 
   ngOnInit() {
-    this.apiProject.pouet(this.project).subscribe(result => {
-      this.myapicall = result['hydra:member'];
+    this.apiProject.getProjects().subscribe(result => {
+      this.projects = result['hydra:member'];
       console.log(result);
     })
+  }
+
+  addNewVote()
+  {
+    this.cptVote += 1;
   }
 
 }
