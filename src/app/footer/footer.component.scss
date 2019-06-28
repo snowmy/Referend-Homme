@@ -1,20 +1,16 @@
 .contain
 {
-    background-color: orange;
+    background-color: white;
     padding-top: 2%;
     padding-bottom: 2%;
     justify-content: space-between;
+    height : 200px;
 }
 ul 
 {
     list-style-type: none;
 }
-#btnModal
-{
-    background-color: transparent;
-    border-color: transparent;
-    color: blue;
-}
+
 li
 {
     margin-left: 3%;
@@ -24,14 +20,14 @@ li
 {
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 30%;
+    margin-bottom: 10%;
     padding-left: 5%;
-    background-color: rgb(209, 137, 4);   
 }
+
 #mc_embed_signup
 {
     margin-left: 5%;
-    background-color: rgb(209, 137, 4);
+
 }
 .email
 {
@@ -47,4 +43,61 @@ li
 .maps
 {
     margin-right: 2%;
+    height : 200px;
+
+}
+
+.lienSociaux
+{
+    margin-top : 10px;
+    margin-left: 20px;
+}
+
+.facebook
+{
+    width: 40px;
+}
+
+.twitter
+{
+    width: 40px;
+}
+
+.instagram
+{
+    width: 40px;
+}
+.mail
+{
+    width: 40px;
+
+}
+.telephone
+{
+    width: 40px;
+    margin-left : 10px;
+}
+
+.newsletter
+{
+    margin-top : -15px;
+}
+
+.contact
+{
+    margin-left : 20px;
+}
+
+#mc_embed_signup
+{
+    background-color : grey;
+}
+.btnContact
+{
+    background-color : grey;
+}
+#herefmail
+{
+    color : black;
+
 }
