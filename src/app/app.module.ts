@@ -39,7 +39,7 @@ const appRoutes: Routes = [
     NavbarComponent,
     FooterComponent,
     ProjetComponent,
-    VoteComponent
+    VoteComponent,
   ],
   imports: [
     BrowserModule,
